@@ -1,0 +1,1 @@
+browser-sync start --proxy="dev.reactmall.com" --files="views/**/*.html, static/**/*.css, static/**/*.js"

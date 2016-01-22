@@ -1,0 +1,12 @@
+{% extends "../content_base.html" %}
+
+{% block content-panel %}
+<div class="xui-productPage mt50" id="page" data-page-name="product"></div>
+{% endblock %}
+
+
+{% block js %}
+<script type="text/javascript">
+W.product = {{JSON.stringify(product)}};
+</script>
+{% endblock %}

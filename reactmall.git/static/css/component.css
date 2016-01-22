@@ -1,0 +1,95 @@
+html, body {
+	background-color: #F0F0F0;
+}
+
+.cui-productList {
+	background-color: #FFF;
+}
+.cui-productList-productWrapper {
+	float: left;
+	width: 50%;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	padding: 10px;
+}
+.cui-productList-product {
+	background-color: #FFF;
+	border: solid 1px #CFCFCF;
+	padding: 10px;
+}
+.cui-productList-product a:link, .cui-productList-product a:visited {
+	text-decoration: none;
+	color: black;
+}
+.cui-productList-product .cui-i-image {
+	width: 100%;
+	max-width: 100%;
+	display: block;
+}
+.cui-productList-product .cui-i-name {
+	padding: 10px 0px;
+	font-size: 14px;
+	border-bottom: dashed 1px #DFDFDF;
+}
+.cui-productList-product .cui-i-price {
+	margin-top: 10px;
+	color: red;
+}
+
+
+
+
+/**
+ * product detail page样式
+ */
+.cui-productDetail img {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+}
+.cui-productDetail .cui-i-pic {
+	height: 300px;
+	overflow: hidden;
+}
+.cui-productDetail .cui-i-likeBtn {
+	position: absolute;
+	top: 0px;
+	right: 10px;
+}
+.cui-productDetail .cui-i-shoppingCart {
+	position: fixed;
+	bottom: 0px;
+	padding: 3px;
+	width: 100%;
+}
+.cui-productDetail .cui-i-cart {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	vertical-align: bottom;
+	border: solid 1px red;
+}
+.cui-productDetail .cui-i-productCount {
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	text-align: center;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	background-color: #F03288;
+	color: #FFF;
+}
+.cui-productDetail .cui-i-flyHint {
+	position: absolute;
+	border-radius: 5px;
+	top: 100px;
+	left: 50%;
+	width: 150px;
+	text-align: center;
+	margin-left: -75px;
+	background: #333;
+	color: #FFFFFF;
+	padding: 10px;
+}
