@@ -2,6 +2,7 @@
 Copyright (c) 2011-2012 Weizoom Inc
 */
 var React = require('react');
+var CartItem = require('./CartItem.react');
 
 var ProductList = React.createClass({
 	displayName: 'ProductList',
@@ -9,12 +10,7 @@ var ProductList = React.createClass({
 	render: function() {
 		var productNodes = this.props.products.map(function(product) {
 			return (
-				<tr>
-					<td><img src={product.product_img} /></td>
-					<td>{product.name}</td>
-					<td>{product.price}</td>
-					<td>{product.count}</td>
-				</tr>
+				<CartItem product={product} />
 			)
 		});
 
