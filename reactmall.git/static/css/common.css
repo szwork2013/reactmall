@@ -69,14 +69,3 @@
 	z-index: 10000;
 	padding: 10px;
 }
-
-.shopping-car-table img{
-	width: 20%;
-	min-width: 30px;
-}
-.shopping-car-table th{
-	width: 25%;
-}
-.clear-both{
-	clear: both;
-}

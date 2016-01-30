@@ -57,9 +57,21 @@ router.get('/', function(req, res, next) {
 			}
 		}
 	}
-	var c = RequestContext(req, {
-		products: selected_products,
-	});
+	
+	var totalPrice;
+	for(var n in selected_products){
+		console.log(selected_products[n]['count'])
+		console.log(selected_products[n]['price'])
+		var count = selected_products[n]['count'];
+		var price = selected_products[n]['price'];
+		totalPrice += count * price;
+	}
+	// console.log('===============')
+	// console.log(totalPrice)
+	// console.log('===============')
+	// var c = RequestContext(req, {
+	// 	products: selected_products,
+	// });
 
 	res.render('mall/new.html', c)
 });

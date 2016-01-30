@@ -93,3 +93,20 @@ html, body {
 	color: #FFFFFF;
 	padding: 10px;
 }
+
+/*
+购物车
+ */
+.shopping-car-table img{
+	width: 20%;
+	min-width: 30px;
+}
+.shopping-car-table th{
+	width: 25%;
+}
+.shopping-car-table td{
+	vertical-align: middle !important;
+}
+.clear-both{
+	clear: both;
+}
